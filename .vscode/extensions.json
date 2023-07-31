@@ -1,0 +1,28 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "coenraads.bracket-pair-colorizer-2",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "johnpapa.vscode-peacock",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.vscode-node-azure-pack",
+    "eg2.vscode-npm-script",
+    "vscode-icons-team.vscode-icons",
+    "auchenberg.vscode-browser-preview",
+    "ms-azuretools.vscode-docker",
+    "visualstudioexptteam.vscodeintellicode",
+    "esbenp.prettier-vscode",
+    "yzhang.markdown-all-in-one",
+    "redhat.vscode-yaml",
+    "alefragnani.Bookmarks",
+    "vscjava.vscode-java-pack",
+    "felixfbecker.php-intellisense",
+    "bmewburn.vscode-intelephense-client",
+    "octref.vetur"
+  ]
+}

@@ -1,0 +1,83 @@
+project/
+|-- src/
+|   |-- factories/
+|   |   |-- index.ts               // Archivo principal del patrón Factory
+|   |   |-- productFactory.ts      // Factoría para crear productos
+|   |   |-- anotherFactory.ts      // Otra factoría (si es necesario)
+|   |
+|   |-- models/
+|   |   |-- product.ts             // Definición del modelo de productos
+|   |   |-- anotherModel.ts        // Definición de otro modelo (si es necesario)
+|   |
+|   |-- controllers/
+|   |   |-- productController.ts   // Controlador para productos
+|   |   |-- anotherController.ts   // Otro controlador (si es necesario)
+|   |
+|   |-- services/
+|   |   |-- productService.ts      // Lógica del servicio para productos
+|   |   |-- anotherService.ts      // Lógica del servicio para otra entidad (si es necesario)
+|   |
+|   |-- routes/
+|   |   |-- productRoutes.ts       // Rutas para el manejo de productos
+|   |   |-- anotherRoutes.ts       // Rutas para otra entidad (si es necesario)
+|   |   |-- index.ts               // Archivo principal para agrupar todas las rutas
+|   |
+|   |-- app.ts                    // Archivo principal de la aplicación
+|
+|-- test/
+|   |-- unit/
+|   |   |-- productFactory.test.ts  // Pruebas unitarias para la factoría de productos
+|   |   |-- anotherFactory.test.ts  // Pruebas unitarias para otra factoría (si es necesario)
+|   |   |-- productService.test.ts  // Pruebas unitarias para el servicio de productos
+|   |   |-- anotherService.test.ts  // Pruebas unitarias para otro servicio (si es necesario)
+|   |
+|   |-- integration/
+|   |   |-- productRoutes.test.ts  // Pruebas de integración para las rutas de productos
+|   |   |-- anotherRoutes.test.ts  // Pruebas de integración para otras rutas (si es necesario)
+|   |
+|   |-- setup.ts                  // Archivo de configuración para las pruebas
+|
+|-- config/
+|   |-- index.ts                 // Configuración global de la aplicación
+|   |-- database.ts              // Configuración de la base de datos
+|   |-- logger.ts                // Configuración del sistema de registro de eventos
+|   |-- ...                      // Otras configuraciones (si es necesario)
+|
+|-- logs/                        // Carpeta para almacenar los registros de la aplicación
+|-- scripts/                     // Scripts para tareas de construcción y despliegue
+|-- docs/                        // Documentación del proyecto (generada o manual)
+|-- node_modules/                // Dependencias del proyecto (creadas automáticamente)
+|-- package.json                 // Archivo de configuración de npm
+|-- .gitignore                   // Archivo para ignorar ciertos archivos en el control de versiones
+|-- README.md                    // Documentación del proyecto
+|-- LICENSE                      // Licencia del proyecto (si es necesario)
+|-- .eslintrc.json               // Archivo de configuración de ESLint (si se utiliza)
+|-- .prettierrc.json             // Archivo de configuración de Prettier (si se utiliza)
+|-- .editorconfig                // Archivo de configuración de EditorConfig (si se utiliza)
+|-- .github/
+|   |-- ISSUE_TEMPLATE.md        // Plantilla para reportar problemas (si es un proyecto de código abierto)
+|   |-- PULL_REQUEST_TEMPLATE.md // Plantilla para solicitudes de extracción (si es un proyecto de código abierto)
+|-- .circleci/
+|   |-- config.yml               // Configuración para CircleCI (si se utiliza)
+|-- .dockerignore                // Archivo para ignorar ciertos archivos en la construcción de contenedores Docker (si se utiliza)
+|-- Dockerfile                   // Archivo de definición para construir la imagen de Docker (si se utiliza)
+|-- .env.example                 // Ejemplo de archivo de variables de entorno (si es necesario)
+|-- .huskyrc.json                // Configuración de Husky (si se utiliza)
+|-- .lintstagedrc.json           // Configuración de lint-staged (si se utiliza)
+|-- .nvmrc                       // Versión recomendada de Node.js para el proyecto (si es necesario)
+|-- .gitattributes              // Archivo para especificar atributos de Git (si es necesario)
+|-- .github/
+|   |-- CODE_OF_CONDUCT.md       // Código de conducta del proyecto (si es necesario)
+|   |-- CONTRIBUTING.md         // Guía para contribuir al proyecto (si es un proyecto de código abierto)
+|   |-- SECURITY.md             // Información de seguridad y políticas (si es necesario)
+|-- CODEOWNERS                  // Archivo para especificar los propietarios del código (si es necesario)
+|-- SECURITY.md                // Información de seguridad y políticas (si es necesario)
+|-- .npmrc                     // Configuración de npm (si es necesario)
+|-- .npmignore                 // Archivo para ignorar ciertos archivos en el paquete npm (si es necesario)
+|-- .yarnrc                    // Configuración de Yarn (si se utiliza)
+|-- yarn.lock                 // Archivo generado por Yarn para fijar las versiones de las dependencias (si se utiliza)
+|-- .babelrc                 // Configuración de Babel (si se utiliza)
+|-- .webpack.config.js       // Archivo de configuración para Webpack (si se utiliza)
+|-- .vscode/                // Carpeta con configuraciones específicas para Visual Studio Code (si es necesario)
+|   |-- settings.json       // Configuración de editor y extensiones recomendadas para VSCode
+|   |-- extensions.json     // Lista de extensiones recomendadas para VSCode
