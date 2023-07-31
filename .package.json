@@ -1,0 +1,64 @@
+{
+  // Configuración general del editor
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.autoIndent": "full",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // Configuración de apariencia y temas
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "vscode-icons",
+
+  // Configuración de fuentes
+  "editor.fontFamily": "Fira Code, Menlo, monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+
+  // Configuración de búsqueda y reemplazo
+  "search.showLineNumbers": true,
+  "search.useRipgrep": true,
+  "search.smartCase": true,
+  "search.location": "panel",
+  "search.quickOpen.includeHistory": false,
+
+  // Configuración de archivos y carpetas
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.vscode": true,
+    "**/node_modules": true
+  },
+  "files.associations": {
+    "*.js": "javascript",
+    "*.ts": "typescript"
+  },
+
+  // Configuración de terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.shellArgs.linux": ["--login"],
+  "terminal.integrated.shellArgs.windows": ["/K", "C:\\Windows\\System32\\cmd.exe"],
+
+  // Configuración de ESLint y Prettier
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "prettier.requireConfig": true,
+
+  // Configuración de Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true
+}

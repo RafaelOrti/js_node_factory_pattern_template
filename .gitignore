@@ -1,0 +1,53 @@
+# Logs
+logs/
+*.log
+
+# Carpeta de dependencias y build
+node_modules/
+dist/
+
+# Archivos de entorno
+.env
+.env.example
+
+# Archivos generados por editores de código
+.vscode/
+.idea/
+*.sublime-*
+
+# Archivos de bloqueo y caché de Yarn
+.yarn/
+.yarnrc
+.yarn.lock
+
+# Archivos de bloqueo y caché de npm
+.npm/
+.npmrc
+package-lock.json
+
+# Archivos de configuración local
+.editorconfig
+.eslintrc.json
+.prettierrc.json
+
+# Carpeta para almacenar cobertura de pruebas
+coverage/
+.coverage/
+.nyc_output/
+
+# Archivos generados durante la ejecución de pruebas
+__snapshots__/
+*.spec.js
+*.test.js
+
+# Archivos de documentación generados
+docs/api/
+docs/build/
+
+# Archivos de build generados
+*.js.map
+*.css.map
+
+# Archivos de configuración específicos de editores de código
+*.sublime-project
+*.sublime-workspace

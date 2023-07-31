@@ -1,0 +1,20 @@
+# .dockerignore
+
+# Ignorar archivos y directorios innecesarios en la construcción de la imagen Docker
+
+# Directorios
+node_modules
+dist
+coverage
+docs
+
+# Archivos
+.env
+.npmrc
+.yarnrc
+package-lock.json
+yarn.lock
+*.log
+*.log.*
+*.tmp
+*.temp

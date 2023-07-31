@@ -1,0 +1,46 @@
+# .gitattributes
+
+# Define el tipo de fin de línea para los archivos de texto
+* text=auto
+
+# Archivos que deben ser tratados como binarios
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+
+# Excluir archivos y directorios del conteo de líneas de código en GitHub
+# Cambia "/src/" y "/tests/" por tus directorios de código y pruebas reales
+/src/* linguist-vendored
+/tests/* linguist-vendored
+
+# Archivos y extensiones que deben ser tratados como no difusibles (not diffable)
+*.min.js binary
+*.min.css binary
+*.map binary
+*.zip binary
+*.gz binary
+*.tar binary
+
+# Configurar Git para identificar la programación Lisp
+*.lisp linguist-language=Lisp
+
+# Archivos y extensiones que deben ser tratados como texto y no difusibles
+*.md text
+*.json text
+*.yml text
+*.yaml text
+*.xml text
+*.html text
+*.css text
+*.js text
+*.ts text
+
+# Configurar Git para identificar los archivos TypeScript
+*.ts linguist-language=TypeScript
+
+# Configurar Git para identificar los archivos JavaScript
+*.js linguist-language=JavaScript
+
+# Configurar Git para identificar los archivos JSON
+*.json linguist-language=JSON

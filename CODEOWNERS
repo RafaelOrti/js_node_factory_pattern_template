@@ -1,0 +1,25 @@
+# CODEOWNERS
+
+# Definir los propietarios de código para los siguientes directorios y archivos
+# Revisa la documentación de CODEOWNERS para obtener más detalles: https://docs.github.com/en/repositories/creating-and-managing-repositories/about-code-owners
+
+# Propietarios generales del repositorio
+*       @organization/team1 @organization/team2
+
+# Propietarios para los archivos de documentación
+/docs/* @organization/docs-team
+
+# Propietarios para el código fuente en TypeScript
+/src/*.ts @organization/frontend-team
+
+# Propietarios para el código fuente en JavaScript
+/src/*.js @organization/backend-team
+
+# Propietarios para los archivos de configuración
+/.babelrc @organization/devops-team
+/.eslintrc.js @organization/devops-team
+/tsconfig.json @organization/devops-team
+/webpack.config.js @organization/devops-team
+
+# Propietarios para los archivos de pruebas
+/tests/* @organization/testing-team

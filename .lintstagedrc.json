@@ -1,0 +1,6 @@
+{
+  "linters": {
+    "*.{js,ts,json,css,scss,md}": ["eslint --fix", "prettier --write"]
+  },
+  "ignore": ["node_modules/**", "dist/**"]
+}

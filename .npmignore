@@ -1,0 +1,33 @@
+# .npmignore
+
+# Directorios que no deben ser incluidos en el paquete npm
+node_modules/
+dist/
+coverage/
+
+# Archivos de desarrollo y configuración que no deben ser incluidos
+package-lock.json
+yarn.lock
+tsconfig.json
+babel.config.js
+webpack.config.js
+.babelrc
+.eslintignore
+.eslintrc.js
+.prettierignore
+.prettierrc
+.editorconfig
+
+# Archivos de prueba y utilidades de pruebas que no deben ser incluidos
+test/
+tests/
+__tests__/
+*.spec.ts
+*.test.ts
+
+# Archivos o directorios específicos que no deben ser incluidos
+*.log
+*.log.*
+*.swp
+.DS_Store
+Thumbs.db
