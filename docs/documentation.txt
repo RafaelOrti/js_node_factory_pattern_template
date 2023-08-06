@@ -81,3 +81,21 @@ project/
 |-- .vscode/                // Carpeta con configuraciones específicas para Visual Studio Code (si es necesario)
 |   |-- settings.json       // Configuración de editor y extensiones recomendadas para VSCode
 |   |-- extensions.json     // Lista de extensiones recomendadas para VSCode
+
+
+
+El patrón de diseño "Singleton" es útil cuando deseas asegurarte de que una clase tenga una única instancia en toda tu aplicación. Este patrón se utiliza para restringir la creación de objetos de una clase a una sola instancia, garantizando así que solo exista una única instancia de esa clase y proporcionando un punto global de acceso a esa instancia.
+
+Hay varios casos de uso donde el patrón Singleton puede ser útil:
+
+Configuración global: Si tienes una clase que representa la configuración global de tu aplicación y quieres asegurarte de que haya una única instancia para mantener la configuración consistente en toda la aplicación, el patrón Singleton puede ser útil.
+
+Conexiones de bases de datos: Cuando trabajas con una base de datos y deseas tener una única conexión global a la base de datos para evitar la sobrecarga de conexiones, el patrón Singleton es útil para garantizar que solo haya una instancia de la clase que maneja la conexión.
+
+Manejo de recursos compartidos: Si tienes un recurso compartido en tu aplicación que debe ser accedido de manera consistente desde diferentes partes del código, el patrón Singleton garantiza que todas las partes accedan a la misma instancia.
+
+Control de acceso: En situaciones en las que solo se permite una única instancia de una clase debido a razones de seguridad o control de acceso, el patrón Singleton puede ser útil para asegurar que no se creen instancias adicionales.
+
+Logging: En el caso de un Logger (registro de eventos) que debe ser único para toda la aplicación, el patrón Singleton garantiza que todos los registros de eventos se envíen a una única instancia del Logger.
+
+Es importante tener en cuenta que, aunque el patrón Singleton puede ser útil en ciertos casos, también debe utilizarse con precaución. El uso excesivo de patrones Singleton puede llevar a acoplar demasiado el código y dificultar la prueba unitaria. Además, la creación de instancias compartidas puede aumentar la complejidad y dificultar el mantenimiento y la comprensión del código. Es importante evaluar cuidadosamente el diseño y la arquitectura de tu aplicación antes de decidir utilizar el patrón Singleton.
