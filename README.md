@@ -69,11 +69,11 @@ factory-pattern-nodejs/
 
 ## Documentación
 
-Para obtener una documentación más detallada sobre cómo funciona el Patrón de Diseño Factory implementado en este proyecto y cómo utilizarlo, consulta la [documentación](./docs/README.md).
+Para obtener una documentación más detallada sobre cómo funciona el Patrón de Diseño Factory implementado en este proyecto y cómo utilizarlo, consulta la ./docs/README.md.
 
 ## Contribución
 
-¡Tus contribuciones son bienvenidas! Si quieres contribuir a este proyecto, por favor consulta ./CONTRIBUTING.md yb./CODE_OF_CONDUCT.md.
+¡Tus contribuciones son bienvenidas! Si quieres contribuir a este proyecto, por favor consulta ./CONTRIBUTING.md y ./CODE_OF_CONDUCT.md.
 
 
 ## Licencia
