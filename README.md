@@ -1,36 +1,44 @@
-# Factory Pattern - Ejemplo de Patrón de Diseño Factory en Node.js
+# Factory Pattern - Factory Design Pattern Example in Node.js
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Coverage Status](https://coveralls.io/repos/github/tuusuario/factory-pattern-nodejs/badge.svg?branch=main)
-![Contributors](https://img.shields.io/github/contributors/tuusuario/factory-pattern-nodejs)
-![Latest Release](https://img.shields.io/github/v/release/tuusuario/factory-pattern-nodejs)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+## Description
 
-## Descripción
+This project is an example of implementing the Factory Design Pattern in Node.js. The Factory pattern is used to create objects without explicitly specifying the exact class of the object to be created. 
 
-Este proyecto es un ejemplo de implementación del Patrón de Diseño Factory en Node.js. El patrón Factory se utiliza para crear objetos sin especificar explícitamente la clase exacta del objeto que se creará. En este proyecto, se muestra cómo se puede utilizar el Factory Pattern para crear diferentes tipos de productos sin conocer los detalles internos de su creación.
+The Factory pattern is a creational design pattern that provides an interface for creating objects but allows subclasses to decide which class to instantiate. It promotes loose coupling by abstracting the object creation process from the client code.
 
-## Instalación
+Key components of the Factory pattern:
 
-1. Clona el repositorio:
+1. Factory Interface: Defines the interface for creating objects. This can be an abstract class or an interface that declares a factory method (a method responsible for creating objects).
+
+2. Concrete Factories: Subclasses that implement the factory interface and provide the actual implementation for creating specific objects. Each subclass may create different types of objects based on the requirements.
+
+3. Product Interface: Declares the interface for the products (objects) that the factory creates. This can be an abstract class or an interface shared by the different product classes.
+
+4. Concrete Products: Classes that implement the product interface and represent the various types of objects created by the factory.
+
+In this project, it is shown how the Factory Pattern can be used to create different types of products without knowing the internal details of its creation.
+
+## Facility
+
+1. Clone the repository:
 ```
-git clone https://github.com/tuusuario/factory-pattern-nodejs.git
+git clone https://github.com/yourusername/factory-pattern-nodejs.git
 ```
 
-2. Instala las dependencias:
+2. Install the dependencies:
 ```shell
-cd factory-pattern-nodejs
+cd-factory-pattern-nodejs
 yarn install
 ```
 
-3. Ejecuta la aplicación:
+3. Run the application:
 ```shell
 yarn start
 ```
 
-## Estructura de Carpetas
+## Folder Structure
 
-La estructura de carpetas del proyecto es la siguiente:
+The project folder structure is as follows:
 ```shell
 factory-pattern-nodejs/
 ├── .github/
@@ -63,19 +71,19 @@ factory-pattern-nodejs/
 ├── tests/
 │ ├── factory.test.js
 │ └── ...
-└── docs/
+└── documents/
 └── README.md
 ```
 
-## Documentación
+## Documentation
 
-Para obtener una documentación más detallada sobre cómo funciona el Patrón de Diseño Factory implementado en este proyecto y cómo utilizarlo, consulta la ./docs/README.md.
+For more detailed documentation on how the Factory Design Pattern implemented in this project works and how to use it, see ./docs/README.md.
 
-## Contribución
+## Contribution
 
-¡Tus contribuciones son bienvenidas! Si quieres contribuir a este proyecto, por favor consulta ./CONTRIBUTING.md y ./CODE_OF_CONDUCT.md.
+Your contributions are welcome! If you want to contribute to this project, please see ./CONTRIBUTING.md and ./CODE_OF_CONDUCT.md.
 
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT - ver el archivo ./LICENSE para más detalles.
+This project is licensed under the MIT License - see the ./LICENSE file for details.
