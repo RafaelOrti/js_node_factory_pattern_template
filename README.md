@@ -1,7 +1,6 @@
 # Factory Pattern - Ejemplo de Patrón de Diseño Factory en Node.js
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Build Status](https://github.com/tuusuario/factory-pattern-nodejs/workflows/CI/badge.svg)
 ![Coverage Status](https://coveralls.io/repos/github/tuusuario/factory-pattern-nodejs/badge.svg?branch=main)
 ![Contributors](https://img.shields.io/github/contributors/tuusuario/factory-pattern-nodejs)
 ![Latest Release](https://img.shields.io/github/v/release/tuusuario/factory-pattern-nodejs)
@@ -14,31 +13,25 @@ Este proyecto es un ejemplo de implementación del Patrón de Diseño Factory en
 ## Instalación
 
 1. Clona el repositorio:
-
+```shell
 git clone https://github.com/tuusuario/factory-pattern-nodejs.git
-
-markdown
-Copy code
+```
 
 2. Instala las dependencias:
-
+```shell
 cd factory-pattern-nodejs
 yarn install
-
-markdown
-Copy code
+```
 
 3. Ejecuta la aplicación:
-
+```shell
 yarn start
-
-python
-Copy code
+```
 
 ## Estructura de Carpetas
 
 La estructura de carpetas del proyecto es la siguiente:
-
+```shell
 factory-pattern-nodejs/
 ├── .github/
 │ └── workflows/
@@ -72,9 +65,7 @@ factory-pattern-nodejs/
 │ └── ...
 └── docs/
 └── README.md
-
-markdown
-Copy code
+```
 
 ## Documentación
 
@@ -82,12 +73,9 @@ Para obtener una documentación más detallada sobre cómo funciona el Patrón d
 
 ## Contribución
 
-¡Tus contribuciones son bienvenidas! Si quieres contribuir a este proyecto, por favor consulta nuestras [pautas de contribución](./CONTRIBUTING.md) y [código de conducta](./CODE_OF_CONDUCT.md).
+¡Tus contribuciones son bienvenidas! Si quieres contribuir a este proyecto, por favor consulta ./CONTRIBUTING.md yb./CODE_OF_CONDUCT.md.
 
-## Información adicional
-
-Agrega cualquier otra información relevante o enlaces a recursos adicionales aquí.
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](./LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT - ver el archivo ./LICENSE para más detalles.
