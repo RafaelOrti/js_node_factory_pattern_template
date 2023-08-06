@@ -1,0 +1,10 @@
+// anotherService.ts
+// This file contains the implementation of AnotherService.
+
+// Example: AnotherService class
+export class AnotherService {
+  // Sample method for AnotherService
+  static doSomething(): string {
+    return "Doing something in AnotherService!";
+  }
+}
