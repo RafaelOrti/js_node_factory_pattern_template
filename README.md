@@ -13,7 +13,7 @@ Este proyecto es un ejemplo de implementación del Patrón de Diseño Factory en
 ## Instalación
 
 1. Clona el repositorio:
-```shell
+```
 git clone https://github.com/tuusuario/factory-pattern-nodejs.git
 ```
 
